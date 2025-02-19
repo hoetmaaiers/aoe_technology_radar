@@ -21,6 +21,22 @@ pipeline {
         }
       }
     }
+
+    // This stage will only run on a 'tag build' (requires a manual "Build Now")
+    stage('Push tagged image to registry') {
+      when {
+        expression {
+          env.BRANCH_NAME == env.CURRENT_COMMIT_TAG_NAME
+        }
+      }
+      steps {
+        script {
+          docker.withRegistry('https://' + REGISTRY, REGISTRY_CREDENTIAL ) {
+            dockerImage.push("${env.CURRENT_COMMIT_TAG_NAME}")
+          }
+        }
+      }
+    }
   
     // This stage will only run on a 'tag build' (requires a manual "Build Now")
     stage('Deploy tagged image to production') {
