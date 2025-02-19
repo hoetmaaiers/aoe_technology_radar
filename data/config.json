@@ -8,14 +8,14 @@
     "showChart": true,
     "showTagFilter": true,
     "showQuadrantList": true,
-    "showEmptyRings": false
+    "showEmptyRings": true
   },
   "sections": ["radar", "tags", "list"],
   "colors": {
     "foreground": "#002E56",
     "background": "#E5E9EE",
     "highlight": "#41D9F9",
-    "content": "#fff",
+    "content": "#ffffff",
     "text": "#002E56",
     "link": "#15EA75",
     "border": "rgba(255, 255, 255, 0.5)",
@@ -23,28 +23,28 @@
   },
   "quadrants": [
     {
-      "id": "api-and-cli",
-      "title": "API and CLI",
+      "id": "infra",
+      "title": "Infrastructure",
       "description": "...",
-      "color": "#a3b18a"
+      "color": "#264653"
     },
     {
-      "id": "api-and-cli",
-      "title": "API and CLI 2",
+      "id": "app-dev",
+      "title": "Application development",
       "description": "...",
-      "color": "#a3b18a"
+      "color": "#F4A261"
     },
     {
-      "id": "api-and-cli",
-      "title": "API and CLI 2",
+      "id": "research-dev",
+      "title": "Research development",
       "description": "...",
-      "color": "#a3b18a"
+      "color": "#6A5ACD"
     },
     {
-      "id": "api-and-cli",
-      "title": "API and CLI 2",
+      "id": "env-pkg-mgmt",
+      "title": "Environment & Package Management",
       "description": "...",
-      "color": "#a3b18a"
+      "color": "#2A9D8F"
     }
   ],
   "rings": [
