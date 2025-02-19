@@ -16,9 +16,6 @@
 # generated
 /src/components/Icons/
 
-/data/about.json
-/data/data.json
-
 # misc
 .DS_Store
 *.pem

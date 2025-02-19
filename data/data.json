@@ -1,0 +1,61 @@
+{
+  "releases": ["2017-03-01", "2024-03-01"],
+  "tags": ["backend", "coding", "frontend", "new"],
+  "items": [
+    {
+      "id": "demo-1",
+      "release": "2017-03-01",
+      "title": "Demo 1",
+      "ring": "assess",
+      "quadrant": "methods-and-patterns",
+      "body": "<p>This is a demo entry. It is used to show how a radar item is written in Markdown format. The meta header is used to define the attributes of the item. The content of the file is used as the description of the item.</p>\n",
+      "featured": true,
+      "flag": "default",
+      "tags": ["coding"],
+      "position": [684, 261]
+    },
+    {
+      "id": "demo-2",
+      "release": "2024-03-01",
+      "title": "Demo 2",
+      "ring": "adopt",
+      "quadrant": "platforms-and-operations",
+      "body": "<p>This is a revision of the 2nd demo item. It moved from trail to adopt.</p>\n",
+      "featured": true,
+      "flag": "changed",
+      "tags": ["coding", "backend"],
+      "revisions": [
+        {
+          "release": "2017-03-01",
+          "ring": "trial",
+          "body": "<p>This is a demo entry. It is used to show how a radar item is written in Markdown format. The meta header is used to define the attributes of the item. The content of the file is used as the description of the item.</p>\n"
+        }
+      ],
+      "position": [243, 433]
+    },
+    {
+      "id": "demo-3",
+      "release": "2017-03-01",
+      "title": "Demo 3",
+      "ring": "hold",
+      "quadrant": "tools",
+      "body": "<p>This is a demo entry. It is used to show how a radar item is written in Markdown format. The meta header is used to define the attributes of the item. The content of the file is used as the description of the item.</p>\n",
+      "featured": true,
+      "flag": "default",
+      "tags": ["coding", "frontend"],
+      "position": [774, 485]
+    },
+    {
+      "id": "demo-4",
+      "release": "2024-03-01",
+      "title": "Demo 4",
+      "ring": "trial",
+      "quadrant": "languages-and-frameworks",
+      "body": "<p>This is a new demo entry. Items can <a href=\"/techradar/methods-and-patterns/demo-1/\">link</a> to other items and replaces the old links with a html extension to the new link structure, whereas a new <a href=\"/techradar/methods-and-patterns/demo-1/\">link</a> should be untouched.</p>\n",
+      "featured": true,
+      "flag": "new",
+      "tags": ["new"],
+      "position": [157, 306]
+    }
+  ]
+}
