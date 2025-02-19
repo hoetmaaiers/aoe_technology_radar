@@ -24,16 +24,39 @@ pipeline {
     // This stage will only run on the 'tag build', i.e.
     // - when a commit is tagged, or
     // - when a previously pushed commit is tagged)
-    stage('Push tagged image to registry') {
+    stage('Tag and push image to registry') {
       when {
         expression {
-          env.CURRENT_COMMIT_TAG_NAME != false
+          get_commit_tag() != false || env.BRANCH_NAME == 'develop' || env.BRANCH_NAME == 'main'
         }
       }
+
       steps {
         script {
-          docker.withRegistry('https://' + REGISTRY, REGISTRY_CREDENTIAL ) {
-            dockerImage.push("${env.CURRENT_COMMIT_TAG_NAME}")
+          docker.withRegistry("https://${REGISTRY}", REGISTRY_CREDENTIAL) {
+
+
+            // Determine Git branch or tag
+            def branch = sh(script: "git rev-parse --abbrev-ref HEAD", returnStdout: true).trim()
+            def gitTag = get_commit_tag()
+
+
+            // // Apply 'latest-develop' tag for develop branch
+            // if (branch == 'develop') {
+            //   dockerImage.push('latest-develop')
+            // }
+            // Apply 'latest' tag for main branch
+            if (branch == 'main') {
+              dockerImage.push('latest')
+            }
+
+            // Push with Git tag if available
+            if (gitTag) {
+              dockerImage.push("${gitTag}")
+            }
+
+            // Apply branch-specific moving tag
+            dockerImage.push("${branch.replaceAll('/', '-')}-latest")
           }
         }
       }
