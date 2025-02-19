@@ -23,12 +23,6 @@
   },
   "quadrants": [
     {
-      "id": "infra",
-      "title": "Infrastructure",
-      "description": "...",
-      "color": "#264653"
-    },
-    {
       "id": "app-dev",
       "title": "Application development",
       "description": "...",
@@ -39,6 +33,12 @@
       "title": "Research development",
       "description": "...",
       "color": "#6A5ACD"
+    },
+    {
+      "id": "infra",
+      "title": "Infrastructure",
+      "description": "...",
+      "color": "#264653"
     },
     {
       "id": "env-pkg-mgmt",
@@ -105,7 +105,7 @@
   "social": [],
   "imprint": "https://www.aoe.com/en/imprint.html",
   "labels": {
-    "title": "Technology Radar",
+    "title": "Python Tech Radar",
     "imprint": "Legal Information",
     "quadrant": "Quadrant",
     "quadrantOverview": "Quadrant Overview",
@@ -114,7 +114,7 @@
     "footer": "The technology radar is a project by VITO.",
     "notUpdated": "This item was not updated in last three versions of the Radar. Should it have appeared in one of the more recent editions, there is a good chance it remains pertinent. However, if the item dates back further, its relevance may have diminished and our current evaluation could vary. Regrettably, our capacity to consistently revisit items from past Radar editions is limited.",
     "notFound": "404 - Page not found",
-    "pageAbout": "How to use VITO SAS Technology Radar?",
+    "pageAbout": "How to use this?",
     "pageOverview": "Technologies Overview",
     "pageSearch": "Search",
     "searchPlaceholder": "What are you looking for?",
