@@ -10,8 +10,7 @@ pipeline {
     DOCKER_IMAGE_REPO = 'techradar-website'
     DOCKER_IMAGE_TAG = "${env.BUILD_NUMBER}"
     DOCKER_IMAGE_REFERENCE = "${DOCKER_IMAGE_REPO}:${DOCKER_IMAGE_TAG}"
-    CURRENT_COMMIT_TAG_NAME = sh(script: 'git tag --points-at HEAD', returnStdout: true).trim()
-
+    CURRENT_COMMIT_TAG_NAME = get_commit_tag()
   }
   stages {
     stage('Build docker image') {
@@ -28,7 +27,7 @@ pipeline {
     stage('Push tagged image to registry') {
       when {
         expression {
-          env.BRANCH_NAME == env.CURRENT_COMMIT_TAG_NAME
+          env.CURRENT_COMMIT_TAG_NAME != false
         }
       }
       steps {
@@ -64,5 +63,15 @@ pipeline {
     always {
       deleteDir()
     }
+  }
+}
+
+def get_commit_tag() {
+  // Run shell command and safely handle null or empty results
+  def tag = sh(script: 'git tag --points-at HEAD', returnStdout: true).trim()
+  if (tag != null && tag != '') {
+    return tag
+  } else {
+    return false
   }
 }
