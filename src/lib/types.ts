@@ -17,6 +17,7 @@ export interface Item {
   title: string;
   info?: string;
   body: string;
+  goto: string;
   featured: boolean;
   ring: string;
   quadrant: string;

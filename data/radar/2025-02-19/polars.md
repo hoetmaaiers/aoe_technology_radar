@@ -3,7 +3,7 @@ title: "polars"
 ring: assess
 quadrant: research-dev
 tags: [data wrangling]
-goto: caio mescouto terra de souza
+goto: Caio Mescouto Terra de Souza
 ---
 
 Polars is a high-performance DataFrame library designed for large-scale data processing. It’s significantly faster than pandas for operations on very large datasets (millions of rows), thanks to its columnar memory layout and Rust-based engine. While promising, it’s currently less mature than pandas, with limited ecosystem integration.

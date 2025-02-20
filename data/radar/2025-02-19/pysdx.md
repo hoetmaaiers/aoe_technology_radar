@@ -3,7 +3,7 @@ title: "pysdx"
 ring: hold
 quadrant: research-dev
 tags: [data i/o]
-goto: lorenz hambsch
+goto: Lorenz Hambsch
 ---
 
 pysdx is an internal VITO package built by Lorenz Hambsch for the analysis of spatial data with support for Postgis, with a ton of utility functions.

@@ -24,6 +24,9 @@ export function ItemDetail({ item }: ItemProps) {
       <div className={styles.header}>
         <h1 className={styles.title}>{item.title}</h1>
         {item.tags?.map((tag) => <Tag key={tag} tag={tag} />)}
+        <div style={{ flexGrow: 1 }}></div>
+
+        <div>Goto person: {item.goto}</div>
       </div>
       <div className={styles.revisions}>
         {notMaintainedText && isNotMaintained(item.release) && (

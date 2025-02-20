@@ -58,6 +58,7 @@ function readMarkdownFile(filePath: string) {
 
   try {
     const { data, content } = matter(fileContent);
+
     const body = convertToHtml(content);
     return { id, data, body };
   } catch (error) {
@@ -87,6 +88,7 @@ async function parseDirectory(dirPath: string): Promise<Item[]> {
             release: releaseDate,
             title: data.title || id,
             ring: data.ring,
+            goto: data.goto,
             quadrant: data.quadrant,
             body,
             featured: data.featured !== false,
