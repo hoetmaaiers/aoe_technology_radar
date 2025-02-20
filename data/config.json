@@ -25,25 +25,25 @@
     {
       "id": "app-dev",
       "title": "Application development",
-      "description": "...",
+      "description": "Building, testing, and maintaining software applications for end-users or business needs.",
       "color": "#F4A261"
     },
     {
       "id": "research-dev",
       "title": "Research development",
-      "description": "...",
+      "description": "Creating tools, prototypes, and methods to support scientific research and innovation.",
       "color": "#6A5ACD"
     },
     {
       "id": "infra",
       "title": "Infrastructure",
-      "description": "...",
+      "description": "Managing and optimizing hardware, networks, and cloud services that support software systems.",
       "color": "#264653"
     },
     {
       "id": "env-pkg-mgmt",
       "title": "Environment & Package Management",
-      "description": "...",
+      "description": "Setting up development environments and handling software dependencies for smooth workflows.",
       "color": "#2A9D8F"
     }
   ],
