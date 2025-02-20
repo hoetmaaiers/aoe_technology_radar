@@ -1,13 +1,8 @@
-# AOE Technology Radar
+# VITO TechRadar
 
-A static site generator for AOE Technology Radar
+A static site generator for the VITO Python TechRadar based on AOE Technology Radar
 
-![Screenshot of the AOE Technology Radar](./docs/assets/screenshot-techradar.png)
-
-## Looking for the AOE Tech Radar content?
-
-- The repository is now found here: https://github.com/AOEpeople/techradar
-- The AOE Tech radar is deployed here: https://www.aoe.com/techradar/index.html
+![Screenshot of the VITO Python TechRadar](./docs/assets/screenshot-techradar.png)
 
 ## ✨ Version 4.0.0
 
@@ -28,45 +23,7 @@ we recommend to add a redirect rule. For nginx, you can use the following rule:
 rewrite ^/techradar/(.+)\.html$ /techradar/$1/ permanent;
 ```
 
-## Create your own radar
-
-The generator is free to use under Open Source License - in fact there are already some other Radars
-published based on our Radar and there are also Contributions back. However, it would be nice to
-mention in radar that the generator is based on this repository.
-
-### Step 1: Create a new project
-
-Ensure node.js ist installed and create a new project by creating a new folder with a `package.json`
-file like the following and adapt to your needs:
-
-```json
-{
-  "name": "aoe-techradar",
-  "version": "1.0.0",
-  "license": "MIT",
-  "scripts": {
-    "build": "techradar build",
-    "serve": "techradar serve"
-  },
-  "dependencies": {
-    "aoe_technology_radar": "^4"
-  }
-}
-```
-
-Run `npm install` to install the dependencies and run `npm run build` to create the initial radar.
-This will also create a basic bootstrap of all required files, including the `config.json` and
-the `about.md` if they do not exist yet.
-
-### Step 2: Change logo and the favicon
-
-Place your `logo.svg` and `favicon.ico` in the `public` folder next to the `package.json`.
-The ideal logo is 150px x 60px. For reference have a look at [public/logo.svg](./public/logo.svg).
-
-If you want to use a file other than an SVG, copy it to the `public` folder and set the name of the
-file as `logoFile` inside the `config.json`. e.g. `"logoFile": "acme-logo.png"`
-
-### Step 3: Configure the radar
+### Configure the radar
 
 Open the `config.json` file and configure the radar to your needs.
 
@@ -187,31 +144,9 @@ reference them
 ![nice image](/images/optional-content-image.png)
 ```
 
-### Step 6: Build your radar
+Run `yarn build` to build the radar and upload the files of the `./build` folder to your server.
 
-Your final file and folder structure should look like this:
-
-```
-├── about.md
-├── config.json
-├── package.json
-├── public/
-│ ├── images/
-│ │ └── optional-content-image.png
-│ ├── favicon.ico
-│ └── logo.svg
-└── radar/
-  ├── 2023-12-31/
-  │ ├── demo-item-1.md
-  │ └── demo-item-2.md
-  └── 2024-03-05/
-    ├── demo-item-1.md
-    └── demo-item-3.md
-```
-
-Run `npm run build` to build the radar and upload the files of the `./build` folder to your server.
-
-You can view a development version of the radar by running `npm run serve` and open the radar in
+You can view a development version of the radar by running `yarn serve` and open the radar in
 your browser at `http://localhost:3000/techradar` or the path you specified via `basePath`.
 
 ## Advanced styling with `custom.css`
@@ -253,12 +188,12 @@ h3 {
 ```
 
 Changes to the css file will not be reflected in the development server. You need to
-run `npm run serve` or `npm run build` to see the changes.
+run `yarn serve` or `yarn build` to see the changes.
 
 ## Development
 
 If you want to change core functionality of the radar, you can clone this repository and put your
-radar's markdown-files, config.json and about.md in the `data` folder. Run `npm run build:data` to
-parse the markdown files and create a `data.json` and then run `npm run dev` to start the
+radar's markdown-files, config.json and about.md in the `data` folder. Run `yarn build:data` to
+parse the markdown files and create a `data.json` and then run `yarn dev` to start the
 development server, which will be available at `http://localhost:3000/techradar` or the path
 you specified via `basePath`.
