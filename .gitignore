@@ -35,3 +35,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+## Project-specific
+# Ignore JSONs that are built by yarn build:data
+data/data.json
+data/about.json
