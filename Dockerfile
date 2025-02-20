@@ -13,8 +13,14 @@ WORKDIR /app
 
 COPY package.json yarn.lock ./
 COPY . .
+
+# Install dependencies
 RUN yarn install
 
+# Convert markdown into json
+RUN yarn run build:data
+
+# Build website
 RUN yarn run build
 
 # -----------------------------------------------------------------------------

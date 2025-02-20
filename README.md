@@ -4,6 +4,30 @@ A static site generator for the VITO Python TechRadar based on AOE Technology Ra
 
 ![Screenshot of the VITO Python TechRadar](./docs/assets/screenshot-techradar.png)
 
+## Local development
+
+```
+# 'build' content (from markdown to json)
+yarn build:data
+
+# Run locally on localhost:3000
+yarn dev
+```
+
+### CI/CD
+
+Jenkins has a [pipeline](https://jenkins-rma.int.vito.be/job/techradar-website/) that builds branches (automatic) and tags (needs a manual 'Build Now').
+
+To deploy a new version of the dashboard:
+
+- Increment the version in line with semver: `yarn version x.y.z`
+- `git commit -m 'bump version'`
+- `git tag x.y.z`
+- `git push --tags origin main`
+- On Jenkins, go to the tags tab and click "Build Now" on your new tag.
+
+# Documentation from forked repository
+
 ## ✨ Version 4.0.0
 
 Version 4.0.0 is a complete rewrite of the AOE Technology Radar. It is now based
@@ -189,11 +213,3 @@ h3 {
 
 Changes to the css file will not be reflected in the development server. You need to
 run `yarn serve` or `yarn build` to see the changes.
-
-## Development
-
-If you want to change core functionality of the radar, you can clone this repository and put your
-radar's markdown-files, config.json and about.md in the `data` folder. Run `yarn build:data` to
-parse the markdown files and create a `data.json` and then run `yarn dev` to start the
-development server, which will be available at `http://localhost:3000/techradar` or the path
-you specified via `basePath`.

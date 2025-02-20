@@ -1,7 +1,7 @@
 {
   "basePath": "/",
   "baseUrl": "",
-  "editUrl": "https://git.vito.be",
+  "editUrl": "https://git.vito.be/projects/CODEFLOW/repos/techradar-website/browse/data/radar/{release}/{id}.md",
   "logoFile": "logo.svg",
   "jsFile": "",
   "toggles": {
@@ -14,37 +14,37 @@
   "colors": {
     "foreground": "#002E56",
     "background": "#E5E9EE",
-    "highlight": "#41D9F9",
+    "highlight": "#1F8094",
     "content": "#ffffff",
     "text": "#002E56",
-    "link": "#15EA75",
+    "link": "#1F8094",
     "border": "rgba(255, 255, 255, 0.5)",
     "tag": "rgba(255, 255, 255, 0.1)"
   },
   "quadrants": [
     {
-      "id": "app-dev",
-      "title": "Application development",
-      "description": "Building, testing, and maintaining software applications for end-users or business needs.",
-      "color": "#F4A261"
-    },
-    {
       "id": "research-dev",
       "title": "Research development",
-      "description": "Creating tools, prototypes, and methods to support scientific research and innovation.",
-      "color": "#6A5ACD"
+      "description": "Develop innovative models, prototypes, and methods.",
+      "color": "#248EA6"
     },
     {
-      "id": "infra",
-      "title": "Infrastructure",
-      "description": "Managing and optimizing hardware, networks, and cloud services that support software systems.",
-      "color": "#264653"
+      "id": "app-dev",
+      "title": "Application development",
+      "description": "Building, testing, and maintaining software applications.",
+      "color": "#DB9D32"
     },
     {
       "id": "env-pkg-mgmt",
       "title": "Environment & Package Management",
-      "description": "Setting up development environments and handling software dependencies for smooth workflows.",
+      "description": "Handle Python versions and project dependencies to ensure reproducibility.",
       "color": "#2A9D8F"
+    },
+    {
+      "id": "infra",
+      "title": "Infrastructure",
+      "description": "Technologies and frameworks to bring software to production at scale.",
+      "color": "#DE603A"
     }
   ],
   "rings": [
@@ -114,7 +114,7 @@
     "footer": "The technology radar is a project by VITO.",
     "notUpdated": "This item was not updated in last three versions of the Radar. Should it have appeared in one of the more recent editions, there is a good chance it remains pertinent. However, if the item dates back further, its relevance may have diminished and our current evaluation could vary. Regrettably, our capacity to consistently revisit items from past Radar editions is limited.",
     "notFound": "404 - Page not found",
-    "pageAbout": "How to use this?",
+    "pageAbout": "About this Tech Radar",
     "pageOverview": "Technologies Overview",
     "pageSearch": "Search",
     "searchPlaceholder": "What are you looking for?",

@@ -1,4 +1,4 @@
-# How to use the VITO Python Tech Radar
+# About the VITO Python Tech Radar
 
 ## Introduction
 
