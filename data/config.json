@@ -102,7 +102,16 @@
     "size": 800,
     "blipSize": 12
   },
-  "social": [],
+  "social": [
+    {
+      "href": "https://twitter.com/vitobelgium",
+      "icon": "x"
+    },
+    {
+      "href": "https://www.linkedin.com/company/vito",
+      "icon": "linkedIn"
+    }
+  ],
   "imprint": "https://www.aoe.com/en/imprint.html",
   "labels": {
     "title": "Python Tech Radar",
