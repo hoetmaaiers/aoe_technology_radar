@@ -34,7 +34,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["task scheduling"],
-      "position": [149, 445]
+      "position": [207, 554]
     },
     {
       "id": "alembic",
@@ -47,7 +47,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["data wrangling"],
-      "position": [258, 355]
+      "position": [332, 300]
     },
     {
       "id": "amqp",
@@ -60,7 +60,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["queue"],
-      "position": [298, 439]
+      "position": [291, 424]
     },
     {
       "id": "aniso8601",
@@ -73,7 +73,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["data wrangling"],
-      "position": [531, 293]
+      "position": [452, 321]
     },
     {
       "id": "apptainer",
@@ -86,7 +86,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["virtualization"],
-      "position": [166, 481]
+      "position": [220, 577]
     },
     {
       "id": "apscheduler",
@@ -99,7 +99,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["task scheduling"],
-      "position": [293, 521]
+      "position": [382, 460]
     },
     {
       "id": "argparse",
@@ -112,7 +112,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["cli"],
-      "position": [123, 135]
+      "position": [91, 207]
     },
     {
       "id": "boto3",
@@ -125,7 +125,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["data i/o"],
-      "position": [428, 368]
+      "position": [485, 357]
     },
     {
       "id": "cachetools",
@@ -138,7 +138,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["performance"],
-      "position": [370, 311]
+      "position": [327, 273]
     },
     {
       "id": "celery",
@@ -151,7 +151,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["queue"],
-      "position": [187, 643]
+      "position": [88, 480]
     },
     {
       "id": "conda-mamba",
@@ -163,7 +163,7 @@
       "body": "<p>Conda is the most widely used environment and package manager in the team, with varying levels of strictness in how it’s applied—ranging from simple environment.yml files for Jenkins builds to meticulous dependency management. The RDM team explicitly requested a shared Conda environment for consistent use across projects. However, with the rise of Pixi, Conda’s position might shift. If Pixi proves reliable and gains broader adoption, Conda could move to Hold.</p>\n",
       "featured": true,
       "flag": "default",
-      "position": [435, 464]
+      "position": [477, 441]
     },
     {
       "id": "cx_freeze",
@@ -176,7 +176,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["general"],
-      "position": [62, 233]
+      "position": [45, 284]
     },
     {
       "id": "cyclopts",
@@ -189,7 +189,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["cli"],
-      "position": [112, 286]
+      "position": [267, 137]
     },
     {
       "id": "dask",
@@ -202,7 +202,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["performance"],
-      "position": [357, 251]
+      "position": [258, 302]
     },
     {
       "id": "django",
@@ -215,7 +215,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["api"],
-      "position": [43, 327]
+      "position": [218, 65]
     },
     {
       "id": "docker",
@@ -227,7 +227,7 @@
       "body": "<p>Docker is a general-purpose containerization tool that provides a reproducible, isolated environment for managing dependencies. Its learning curve is steep, but we encourage the use of Docker. It should, however, be combined with a dedicated dependency manager (e.g., Conda, Pixi, or uv) inside the container for better package management.</p>\n",
       "featured": true,
       "flag": "default",
-      "position": [474, 431]
+      "position": [498, 513]
     },
     {
       "id": "docker_swarm",
@@ -240,7 +240,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["deployment"],
-      "position": [226, 451]
+      "position": [369, 533]
     },
     {
       "id": "duckdb",
@@ -253,7 +253,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["database", "dbms"],
-      "position": [110, 540]
+      "position": [323, 696]
     },
     {
       "id": "dynaconf",
@@ -266,7 +266,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["typing", "validation and testing"],
-      "position": [287, 192]
+      "position": [214, 239]
     },
     {
       "id": "fastai",
@@ -279,7 +279,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["machine learning"],
-      "position": [726, 216]
+      "position": [667, 129]
     },
     {
       "id": "fastapi",
@@ -292,7 +292,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["api"],
-      "position": [343, 388]
+      "position": [315, 330]
     },
     {
       "id": "fiona",
@@ -305,7 +305,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["data wrangling"],
-      "position": [487, 383]
+      "position": [525, 314]
     },
     {
       "id": "flake8",
@@ -318,7 +318,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["code formatting"],
-      "position": [507, 36]
+      "position": [542, 65]
     },
     {
       "id": "flask",
@@ -331,7 +331,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["api"],
-      "position": [328, 33]
+      "position": [34, 324]
     },
     {
       "id": "folium",
@@ -344,7 +344,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["visualization"],
-      "position": [472, 275]
+      "position": [439, 234]
     },
     {
       "id": "gdal",
@@ -357,7 +357,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["data i/o"],
-      "position": [690, 149]
+      "position": [525, 42]
     },
     {
       "id": "geoalchemy2",
@@ -370,7 +370,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["data i/o"],
-      "position": [433, 390]
+      "position": [434, 355]
     },
     {
       "id": "geopandas",
@@ -383,7 +383,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["data wrangling"],
-      "position": [488, 300]
+      "position": [493, 260]
     },
     {
       "id": "geopolars",
@@ -396,7 +396,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["data wrangling"],
-      "position": [479, 93]
+      "position": [516, 107]
     },
     {
       "id": "h5py",
@@ -409,7 +409,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["data i/o"],
-      "position": [543, 366]
+      "position": [417, 323]
     },
     {
       "id": "httpx",
@@ -422,7 +422,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["data i/o"],
-      "position": [193, 292]
+      "position": [236, 225]
     },
     {
       "id": "jenkins",
@@ -435,7 +435,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["ci/cd"],
-      "position": [272, 514]
+      "position": [355, 493]
     },
     {
       "id": "jinja2",
@@ -448,7 +448,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["general"],
-      "position": [270, 268]
+      "position": [349, 369]
     },
     {
       "id": "joblib",
@@ -461,7 +461,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["performance"],
-      "position": [320, 292]
+      "position": [354, 250]
     },
     {
       "id": "kubernetes",
@@ -474,7 +474,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["deployment"],
-      "position": [257, 618]
+      "position": [343, 640]
     },
     {
       "id": "loguru",
@@ -487,7 +487,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["logging"],
-      "position": [655, 349]
+      "position": [519, 202]
     },
     {
       "id": "matplotlib",
@@ -500,7 +500,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["visualization"],
-      "position": [572, 63]
+      "position": [671, 152]
     },
     {
       "id": "mqtt",
@@ -513,7 +513,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["queue"],
-      "position": [285, 462]
+      "position": [296, 456]
     },
     {
       "id": "mypy",
@@ -526,7 +526,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["typing", "validation and testing"],
-      "position": [364, 286]
+      "position": [282, 271]
     },
     {
       "id": "narwhals",
@@ -539,7 +539,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["data wrangling"],
-      "position": [290, 113]
+      "position": [91, 306]
     },
     {
       "id": "netcdf4",
@@ -552,7 +552,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["data i/o"],
-      "position": [567, 323]
+      "position": [449, 273]
     },
     {
       "id": "numba",
@@ -565,7 +565,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["performance"],
-      "position": [449, 342]
+      "position": [433, 294]
     },
     {
       "id": "numexpr",
@@ -578,7 +578,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["performance"],
-      "position": [467, 359]
+      "position": [480, 308]
     },
     {
       "id": "numpy",
@@ -591,7 +591,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["data wrangling"],
-      "position": [448, 374]
+      "position": [520, 262]
     },
     {
       "id": "openpyxl",
@@ -604,7 +604,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["data i/o"],
-      "position": [525, 273]
+      "position": [425, 262]
     },
     {
       "id": "overrides",
@@ -617,7 +617,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["general"],
-      "position": [256, 188]
+      "position": [150, 338]
     },
     {
       "id": "pandas",
@@ -630,7 +630,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["data wrangling"],
-      "position": [511, 351]
+      "position": [464, 363]
     },
     {
       "id": "pandera",
@@ -643,7 +643,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["typing", "validation and testing"],
-      "position": [306, 174]
+      "position": [348, 189]
     },
     {
       "id": "parse",
@@ -656,7 +656,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["data wrangling"],
-      "position": [465, 314]
+      "position": [546, 315]
     },
     {
       "id": "pip",
@@ -668,7 +668,7 @@
       "body": "<p>pip is fine for installing individual packages but not for managing environments. It lacks isolation, does not handle non-Python dependencies, and does not track project requirements. Use virtualenv for basic isolation or tools like Conda and Pixi for full environment management. These tools may still use pip but you should not use pip on its own</p>\n",
       "featured": true,
       "flag": "default",
-      "position": [486, 756]
+      "position": [563, 733]
     },
     {
       "id": "pixi",
@@ -680,7 +680,7 @@
       "body": "<p>Pixi is a promising new tool that works with both Conda and PyPI registries, ensuring reproducibility with a combination of pyproject.toml and pixi.lock. Dependencies stay up-to-date with pixi add, and its use is spreading organically across the team. However, it cannot build packages yet. There are also concerns about whether it encourages researchers to upgrade dependencies regularly—something enforced naturally with Conda environments.</p>\n",
       "featured": true,
       "flag": "default",
-      "position": [601, 513]
+      "position": [593, 562]
     },
     {
       "id": "plotly",
@@ -693,7 +693,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["visualization"],
-      "position": [451, 281]
+      "position": [486, 282]
     },
     {
       "id": "poetry",
@@ -705,7 +705,7 @@
       "body": "<p>Poetry was previously used for dependency and package management, but with the adoption of uv, it is no longer useful. uv is better across the board and faster. We suggest you switch over existing projects that use poetry to use uv instead.</p>\n",
       "featured": true,
       "flag": "default",
-      "position": [528, 763]
+      "position": [774, 475]
     },
     {
       "id": "polars",
@@ -718,7 +718,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["data wrangling"],
-      "position": [642, 195]
+      "position": [578, 143]
     },
     {
       "id": "postgis",
@@ -731,7 +731,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["database"],
-      "position": [306, 490]
+      "position": [327, 482]
     },
     {
       "id": "postgresql",
@@ -744,7 +744,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["database"],
-      "position": [291, 547]
+      "position": [364, 437]
     },
     {
       "id": "postgrest",
@@ -757,7 +757,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["database", "rest"],
-      "position": [214, 730]
+      "position": [132, 666]
     },
     {
       "id": "prefect",
@@ -770,7 +770,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["task scheduling"],
-      "position": [321, 691]
+      "position": [135, 587]
     },
     {
       "id": "pydantic",
@@ -783,7 +783,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["typing", "validation and testing"],
-      "position": [337, 321]
+      "position": [375, 334]
     },
     {
       "id": "pydantic-settings",
@@ -796,7 +796,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["typing", "validation and testing"],
-      "position": [204, 274]
+      "position": [300, 167]
     },
     {
       "id": "pygad",
@@ -809,7 +809,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["machine learning"],
-      "position": [427, 347]
+      "position": [475, 251]
     },
     {
       "id": "pylance",
@@ -822,7 +822,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["typing", "validation and testing"],
-      "position": [249, 316]
+      "position": [231, 333]
     },
     {
       "id": "pylint",
@@ -835,7 +835,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["code formatting"],
-      "position": [527, 40]
+      "position": [731, 214]
     },
     {
       "id": "pyproj",
@@ -848,7 +848,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["data wrangling"],
-      "position": [516, 327]
+      "position": [522, 366]
     },
     {
       "id": "pysdx",
@@ -861,7 +861,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["data i/o"],
-      "position": [709, 193]
+      "position": [717, 233]
     },
     {
       "id": "pytest",
@@ -874,7 +874,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["typing", "validation and testing"],
-      "position": [430, 309]
+      "position": [537, 348]
     },
     {
       "id": "pytest-cov",
@@ -887,7 +887,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["typing", "validation and testing"],
-      "position": [262, 293]
+      "position": [391, 353]
     },
     {
       "id": "python-dotenv",
@@ -900,7 +900,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["general"],
-      "position": [326, 374]
+      "position": [333, 354]
     },
     {
       "id": "pytorch",
@@ -913,7 +913,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["machine learning"],
-      "position": [446, 247]
+      "position": [418, 377]
     },
     {
       "id": "pyyaml",
@@ -926,7 +926,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["data i/o"],
-      "position": [474, 245]
+      "position": [570, 331]
     },
     {
       "id": "rasterio",
@@ -939,7 +939,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["data wrangling"],
-      "position": [495, 249]
+      "position": [550, 366]
     },
     {
       "id": "requests",
@@ -952,7 +952,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["data i/o"],
-      "position": [459, 229]
+      "position": [515, 288]
     },
     {
       "id": "rioxarray",
@@ -965,7 +965,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["data wrangling"],
-      "position": [437, 221]
+      "position": [543, 285]
     },
     {
       "id": "rtree",
@@ -978,7 +978,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["data wrangling"],
-      "position": [750, 312]
+      "position": [752, 268]
     },
     {
       "id": "ruff",
@@ -991,7 +991,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["code formatting"],
-      "position": [477, 331]
+      "position": [473, 386]
     },
     {
       "id": "s3fs",
@@ -1004,7 +1004,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["data i/o"],
-      "position": [149, 345]
+      "position": [278, 213]
     },
     {
       "id": "scikit-learn",
@@ -1017,7 +1017,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["machine learning"],
-      "position": [429, 269]
+      "position": [503, 342]
     },
     {
       "id": "scipy",
@@ -1030,7 +1030,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["data wrangling"],
-      "position": [488, 363]
+      "position": [414, 352]
     },
     {
       "id": "seaborn",
@@ -1043,7 +1043,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["visualization"],
-      "position": [779, 333]
+      "position": [779, 332]
     },
     {
       "id": "shapely",
@@ -1056,7 +1056,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["data wrangling"],
-      "position": [543, 315]
+      "position": [494, 381]
     },
     {
       "id": "slurm",
@@ -1069,7 +1069,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["deployment"],
-      "position": [365, 450]
+      "position": [275, 517]
     },
     {
       "id": "spytools",
@@ -1082,7 +1082,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["data i/o"],
-      "position": [626, 352]
+      "position": [559, 207]
     },
     {
       "id": "sqlalchemy",
@@ -1095,7 +1095,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["data i/o"],
-      "position": [546, 344]
+      "position": [570, 361]
     },
     {
       "id": "sqlite",
@@ -1108,7 +1108,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["database"],
-      "position": [358, 557]
+      "position": [349, 575]
     },
     {
       "id": "streamlit",
@@ -1121,7 +1121,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["visualization"],
-      "position": [222, 254]
+      "position": [182, 263]
     },
     {
       "id": "tensorflow-keras",
@@ -1134,7 +1134,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["machine learning"],
-      "position": [580, 368]
+      "position": [435, 389]
     },
     {
       "id": "toml",
@@ -1147,7 +1147,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["data i/o"],
-      "position": [569, 345]
+      "position": [459, 300]
     },
     {
       "id": "tqdm",
@@ -1160,7 +1160,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["logging"],
-      "position": [493, 275]
+      "position": [453, 250]
     },
     {
       "id": "trimesh",
@@ -1173,7 +1173,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["data wrangling"],
-      "position": [413, 329]
+      "position": [467, 340]
     },
     {
       "id": "trio",
@@ -1186,7 +1186,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["general"],
-      "position": [198, 314]
+      "position": [186, 314]
     },
     {
       "id": "typeguard",
@@ -1199,7 +1199,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["typing", "validation and testing"],
-      "position": [205, 181]
+      "position": [287, 99]
     },
     {
       "id": "typer",
@@ -1212,7 +1212,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["cli"],
-      "position": [279, 378]
+      "position": [232, 369]
     },
     {
       "id": "unittest",
@@ -1225,7 +1225,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["typing", "validation and testing"],
-      "position": [187, 87]
+      "position": [270, 56]
     },
     {
       "id": "uv",
@@ -1237,7 +1237,7 @@
       "body": "<p>uv is an all-in-one tool for Python version management, package management, and lockfile handling. It offers a streamlined approach to managing environments and dependencies. It is (currently) limited by its lack of compatibility with Conda repositories, which can be tricky for some research projects. Very promising, but we&#39;re still evaluating this.</p>\n",
       "featured": true,
       "flag": "default",
-      "position": [641, 444]
+      "position": [599, 540]
     },
     {
       "id": "validators",
@@ -1250,7 +1250,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["typing", "validation and testing"],
-      "position": [46, 276]
+      "position": [75, 225]
     },
     {
       "id": "xarray",
@@ -1263,7 +1263,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["data wrangling"],
-      "position": [467, 385]
+      "position": [503, 320]
     },
     {
       "id": "xgboost",
@@ -1276,7 +1276,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["machine learning"],
-      "position": [410, 382]
+      "position": [487, 274]
     },
     {
       "id": "xmltodict",
@@ -1289,7 +1289,7 @@
       "featured": true,
       "flag": "default",
       "tags": ["data i/o"],
-      "position": [510, 294]
+      "position": [463, 232]
     }
   ]
 }

@@ -38,9 +38,9 @@ If this tech radar gains traction internally, we may consider doing a similar ex
 
 ### How to contribute to the Python Tech Radar
 
-We're still figuring out how we'll set up the collaboration model, but all ideas, suggestions, new submissions, concerns are welcome! For now, just [shoot an email to Robin Houdmeyers and Filip Schouwenaars with "Tech Radar" in the subject line]([Send Email](mailto:robin.houdmeyers@vito.be;filip.schouwenaars@vito.be?subject=Tech%20Radar).
+We're still figuring out how we'll set up the collaboration model, but all ideas, suggestions, new submissions, and concerns are welcome! For now, just [shoot an email to Robin Houdmeyers and Filip Schouwenaars with "Tech Radar" in the subject line](mailto:robin.houdmeyers@vito.be;filip.schouwenaars@vito.be?subject=Tech%20Radar).
 
-The source code for this tech radar website is [here](TODO). We welcome non-controversial pull requests (typo fixes, obvious things we missed). If you disagree with the current ring assessments, just email us; we promise we'll get back to you promptly!
+The source code for this tech radar website is [here](https://git.vito.be/projects/CODEFLOW/repos/techradar-website/browse). We welcome non-controversial pull requests (typo fixes, obvious things we missed). If you disagree with the current ring assessments, just email us; we promise we'll get back to you promptly!
 
 ### References
 
