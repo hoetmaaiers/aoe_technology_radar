@@ -2,6 +2,7 @@ import { Head, Html, Main, NextScript } from "next/document";
 import { CSSProperties, useMemo } from "react";
 
 import { getColors } from "@/lib/data";
+import { GoogleTagManager } from "@next/third-parties/google";
 
 export default function Document() {
   const style = useMemo(() => {
@@ -18,6 +19,8 @@ export default function Document() {
   return (
     <Html lang="en" style={style}>
       <Head />
+      <GoogleTagManager gtmId="G-N1MW6X36C2" />
+
       <body>
         <Main />
         <NextScript />

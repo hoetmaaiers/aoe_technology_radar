@@ -36,18 +36,6 @@ const Home: CustomPage = () => {
   return (
     <>
       <Head>
-        {/* Google tag (gtag.js) */}
-        <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-N1MW6X36C2"
-        ></script>
-        <script>
-          {" "}
-          window.dataLayer = window.dataLayer || []; function gtag()
-          {dataLayer.push(arguments)} gtag('js', new Date()); gtag('config',
-          'G-N1MW6X36C2');{" "}
-        </script>
-
         {metaDescription && (
           <meta name="description" content={metaDescription} />
         )}
