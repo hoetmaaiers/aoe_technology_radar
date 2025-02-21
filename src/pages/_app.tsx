@@ -10,6 +10,7 @@ import { assetUrl } from "@/lib/utils";
 import "@/styles/_globals.css";
 import "@/styles/_hljs.css";
 import "@/styles/custom.css";
+import { GoogleTagManager } from "@next/third-parties/google";
 
 export type CustomPage<P = {}, IP = P> = NextPage<P, IP> & {
   layoutClass?: LayoutClass;
@@ -28,6 +29,7 @@ export default function App({ Component, pageProps, router }: CustomAppProps) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href={assetUrl("/favicon.ico")} />
       </Head>
+      <GoogleTagManager gtmId="G-N1MW6X36C2" />
       <Layout layoutClass={Component.layoutClass}>
         <Component {...pageProps} />
         {jsUrl && <Script src={jsUrl} />}
